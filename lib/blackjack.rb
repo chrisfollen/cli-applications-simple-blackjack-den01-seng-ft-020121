@@ -57,7 +57,7 @@ def hit?(current_total)
   total
 end
 
-invalid_command
+
 
 #hit?(14)
 
@@ -65,6 +65,8 @@ def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
 end
+
+invalid_command
 
 #####################################################
 # get every test to pass before coding runner below #
