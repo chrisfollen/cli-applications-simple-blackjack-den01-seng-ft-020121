@@ -40,7 +40,7 @@ end
 def hit?(current_total)
   # code hit? here
   i = 0 
-  while i = 0 
+  while i = 0 do
     prompt_user
     input = get_user_input
     if input == 'h'
