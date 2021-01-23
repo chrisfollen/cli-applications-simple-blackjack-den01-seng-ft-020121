@@ -43,11 +43,11 @@ def hit?(current_total)
   while i == 0 do
     prompt_user
     input = get_user_input
-    if input == 'h'
+    if input == h
       new_card = deal_card
       total = new_card + current_total
       i = 1
-    elsif input == 's'
+    elsif input == s
       total = current_total
       i = 1
     else
