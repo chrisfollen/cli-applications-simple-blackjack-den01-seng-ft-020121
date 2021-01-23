@@ -57,6 +57,8 @@ def hit?(current_total)
   total
 end
 
+hit?(14)
+
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
