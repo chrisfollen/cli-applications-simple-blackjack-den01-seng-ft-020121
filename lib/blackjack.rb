@@ -43,6 +43,7 @@ end
 def hit?(current_total)
   # code hit? here
   i = 0 
+  puts current_total
   while i == 0 do
     prompt_user
     input = get_user_input
@@ -60,6 +61,7 @@ def hit?(current_total)
     end
   end
   total
+  puts total
 end
 
 hit?(14)
