@@ -49,16 +49,13 @@ end
 def hit?(current_total)
   # code hit? here
   i = 0 
-  puts current_total
   while i == 0 do
     prompt_user
     input = get_user_input
-    #binding.pry
     if input == "h\n"
       new_card = deal_card
       total = new_card + current_total
       i = 1
-     # binding.pry
     elsif input == "s\n"
       total = current_total
       i = 1
@@ -67,10 +64,7 @@ def hit?(current_total)
     end
   end
   total
-  puts total
 end
-
-hit?(14)
 
 
 
