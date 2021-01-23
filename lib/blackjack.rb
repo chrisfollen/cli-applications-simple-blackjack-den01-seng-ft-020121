@@ -85,8 +85,13 @@ def runner
       if new_total == current_total
         x = 1
       end
+    elsif new_total > 21
+      end_game
+      x = 1
+    else
+      display_card_total(new_total)
     end
-    
+  end  
   
 end
     
