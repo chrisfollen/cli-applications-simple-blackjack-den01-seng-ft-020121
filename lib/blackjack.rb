@@ -59,7 +59,7 @@ end
 
 invalid_command
 
-hit?(14)
+#hit?(14)
 
 def invalid_command
   # code invalid_command here
