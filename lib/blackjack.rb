@@ -40,6 +40,12 @@ def initial_round
   card_total
 end
 
+
+def invalid_command
+  # code invalid_command here
+  puts "Please enter a valid command"
+end
+
 def hit?(current_total)
   # code hit? here
   i = 0 
@@ -66,12 +72,8 @@ end
 
 hit?(14)
 
-def invalid_command
-  # code invalid_command here
-  puts "Please enter a valid command"
-end
 
-#invalid_command
+
 
 #####################################################
 # get every test to pass before coding runner below #
