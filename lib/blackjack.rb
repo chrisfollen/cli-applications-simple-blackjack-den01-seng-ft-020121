@@ -22,7 +22,8 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets
+  input = gets
+  input
 end
 
 def end_game(total)
@@ -45,13 +46,13 @@ def hit?(current_total)
   while i == 0 do
     prompt_user
     input = get_user_input
-    #binding.pry
-    if input == "h/n"
+    binding.pry
+    if input == "h"
       new_card = deal_card
       total = new_card + current_total
       i = 1
-      binding.pry
-    elsif input == "s/n"
+     # binding.pry
+    elsif input == "s"
       total = current_total
       i = 1
     else
