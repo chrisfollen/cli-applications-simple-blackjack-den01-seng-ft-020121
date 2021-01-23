@@ -78,7 +78,7 @@ def runner
   welcome 
   current_total = initial_round
   x = 0 
-  while x = 0 do
+  while x == 0 do
     new_total = hit?(current_total)
     if new_total == current_total
       new total = hit?(current_total)
