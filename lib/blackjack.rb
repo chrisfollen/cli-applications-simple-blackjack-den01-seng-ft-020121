@@ -50,6 +50,7 @@ def hit?(current_total)
       new_card = deal_card
       total = new_card + current_total
       i = 1
+      binding.pry
     elsif input == "s/n"
       total = current_total
       i = 1
