@@ -45,7 +45,7 @@ def hit?(current_total)
   while i == 0 do
     prompt_user
     input = get_user_input
-    binding.pry
+    #binding.pry
     if input == "h/n"
       new_card = deal_card
       total = new_card + current_total
