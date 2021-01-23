@@ -56,7 +56,7 @@ def hit?(current_total)
       total = current_total
       i = 1
     else
-      invalid_command
+      invalid_command()
     end
   end
   total
