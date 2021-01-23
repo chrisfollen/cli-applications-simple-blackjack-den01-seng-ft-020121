@@ -24,6 +24,7 @@ def get_user_input
   # code #get_user_input here
   input = gets
   puts input
+  binding.pry
 end
 
 def end_game(total)
