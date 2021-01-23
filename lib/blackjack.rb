@@ -40,7 +40,7 @@ end
 def hit?(current_total)
   # code hit? here
   i = 0 
-  while i = 0 do
+  while i == 0 do
     prompt_user
     input = get_user_input
     if input == 'h'
@@ -59,14 +59,14 @@ end
 
 
 
-#hit?(14)
+hit?(14)
 
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
 end
 
-invalid_command
+#invalid_command
 
 #####################################################
 # get every test to pass before coding runner below #
