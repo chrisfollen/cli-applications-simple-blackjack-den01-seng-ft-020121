@@ -23,7 +23,7 @@ end
 def get_user_input
   # code #get_user_input here
   input = gets
-  input
+  puts input
 end
 
 def end_game(total)
@@ -62,9 +62,9 @@ def hit?(current_total)
   total
 end
 
+get_user_input
 
-
-hit?(14)
+#hit?(14)
 
 def invalid_command
   # code invalid_command here
